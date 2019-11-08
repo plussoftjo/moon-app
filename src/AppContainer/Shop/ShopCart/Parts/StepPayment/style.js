@@ -1,0 +1,40 @@
+import {StyleSheet} from 'react-native';
+
+export const StepPaymentStyle = StyleSheet.create({
+    box:{
+        position:'relative',
+        padding:10,
+        height:'88%'
+    },
+    title:{
+        padding:30,
+        paddingLeft:2,
+        fontSize:18,
+        fontWeight:'600',
+        paddingBottom:10,
+        paddingTop:10
+    },
+    stepBox:{
+        flexDirection:'row',
+        justifyContent:'space-between',
+        paddingTop:5
+    },
+    TotalBox:{
+        marginTop:40
+    },
+    priceTitle:{
+        fontSize:16,
+        color:'rgba(0,0,0,0.3)',
+        fontWeight:'500'
+    },
+    price:{
+        fontWeight:'600'
+    },
+    hr:{
+        marginTop:10,
+        width:'100%',
+        height:2,
+        borderBottomColor:'rgba(0,0,0,0.3)',
+        borderBottomWidth:1
+    }
+});
